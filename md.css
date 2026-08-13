@@ -8,3 +8,8 @@
 .github-markdown-body code {
   font-size: 17px;
 }
+
+/* 避免用 i, ii, vii, 另個選項：lower-alpha */
+ol {
+  list-style-type: decimal;
+}
